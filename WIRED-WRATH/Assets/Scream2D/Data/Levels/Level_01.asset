@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e79f3844f93e84ca81c34c577a45f1, type: 3}
+  m_Name: Level_01
+  m_EditorClassIdentifier: 
+  LevelName: Level_01
+  Description: A grim start...
+  Segments:
+  - {fileID: 7704395943615866407, guid: d98907297c4ec974da0446efce79e3d7, type: 3}
+  AtmosphereColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  GlobalLightIntensity: 0.8
+  GravityMultiplier: 1
+  BackgroundMusic: {fileID: 0}
