@@ -710,7 +710,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fdfb1a2ffd58bb4a81de770a8f19c0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Message: Hello stranger...
+  Messages:
+  - Hello stranger...
+  - advadsvadcvadscfa feadvadsvadcvadscfa feadvadsvadcvadscfa feadvadsvadcvadscfa
+    feadvadsvadcvadscfa feadvadsvadcvadscfa feadvadsvadcvadscfa fe
+  - advadsvadcvadscfa feadvadsvadcvadscfa feadvadsvadcvadscfa feadvadsvadcsvadcvadscfa
+    feadvadsvadcvadscfa feadvadsvadcvadscfa fe
 --- !u!1 &9076199906367069549
 GameObject:
   m_ObjectHideFlags: 0

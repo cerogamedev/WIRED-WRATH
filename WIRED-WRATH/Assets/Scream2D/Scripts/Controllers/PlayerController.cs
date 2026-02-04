@@ -140,8 +140,23 @@ namespace Scream2D.Controllers
             CheckCornerCorrection();
         }
 
+        public bool IsInputBlocked { get; private set; }
+
+        public void SetInputBlocked(bool blocked)
+        {
+            IsInputBlocked = blocked;
+            if (blocked)
+            {
+                MoveInput = Vector2.zero;
+                IsJumpPressed = false;
+                IsJumpHeld = false;
+            }
+        }
+
         private void HandleInput()
         {
+            if (IsInputBlocked) return;
+
             float x = Input.GetAxisRaw("Horizontal");
             float y = Input.GetAxisRaw("Vertical");
             MoveInput = new Vector2(x, y);

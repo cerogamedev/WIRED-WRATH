@@ -51,7 +51,7 @@ namespace Scream2D.Editor
                     var composite = go.AddComponent<CompositeCollider2D>();
                     var rb = go.GetComponent<Rigidbody2D>();
                     if (rb != null) rb.bodyType = RigidbodyType2D.Static;
-                    collider.usedByComposite = true;
+                    collider.compositeOperation = Collider2D.CompositeOperation.Merge;
                 }
                 
                 Debug.Log($"Created '{name}' Tilemap.");
