@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 82a66ce5366064345a0f50e7035836f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7834266262360593755
+    second: GlitchNoise_0
+  - first:
+      213: -1005792694174465709
+    second: GlitchNoise_1
+  - first:
+      213: 5421545825067664502
+    second: GlitchNoise_2
+  - first:
+      213: -6203072527291391636
+    second: GlitchNoise_3
+  - first:
+      213: 8912785146337044586
+    second: GlitchNoise_4
+  - first:
+      213: 8017936972779754122
+    second: GlitchNoise_5
+  - first:
+      213: 3429973501013263456
+    second: GlitchNoise_6
+  - first:
+      213: 2016148945857366173
+    second: GlitchNoise_7
+  - first:
+      213: 8943337959661701380
+    second: GlitchNoise_8
+  - first:
+      213: 523480406475458024
+    second: GlitchNoise_9
+  - first:
+      213: 4429220815238036801
+    second: GlitchNoise_10
+  - first:
+      213: 3568926288662861083
+    second: GlitchNoise_11
+  - first:
+      213: -5383736946227900747
+    second: GlitchNoise_12
+  - first:
+      213: -8042404384404251139
+    second: GlitchNoise_13
+  - first:
+      213: -6525510077577636528
+    second: GlitchNoise_14
+  - first:
+      213: 3009514968799031245
+    second: GlitchNoise_15
+  - first:
+      213: 3483830598320063964
+    second: GlitchNoise_16
+  - first:
+      213: 2329341498969754088
+    second: GlitchNoise_17
+  - first:
+      213: -4257621074419786627
+    second: GlitchNoise_18
+  - first:
+      213: 139397461717991583
+    second: GlitchNoise_19
+  - first:
+      213: -5925724326939248155
+    second: GlitchNoise_20
+  - first:
+      213: 2635342843598489523
+    second: GlitchNoise_21
+  - first:
+      213: -6497772825867490084
+    second: GlitchNoise_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GlitchNoise_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5594db68a7e8bc60800000000000000
+      internalID: 7834266262360593755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3514c02afd4ba02f0800000000000000
+      internalID: -1005792694174465709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 27
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67409ac04333d3b40800000000000000
+      internalID: 5421545825067664502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 35
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61efc6d6624ae9a0800000000000000
+      internalID: -6203072527291391636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 23
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a682cce5ed290bb70800000000000000
+      internalID: 8912785146337044586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 13
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a821206223f654f60800000000000000
+      internalID: 8017936972779754122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 40
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06406e4f9b6b99f20800000000000000
+      internalID: 3429973501013263456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d984b14c8cccafb10800000000000000
+      internalID: 2016148945857366173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 29
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40907ef8d7e1d1c70800000000000000
+      internalID: 8943337959661701380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 42
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5c8daf7a6c34700800000000000000
+      internalID: 523480406475458024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 15
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d770c4dd0c77d30800000000000000
+      internalID: 4429220815238036801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 35
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b159d41fc8f578130800000000000000
+      internalID: 3568926288662861083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 45
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be80fb85cf1945b0800000000000000
+      internalID: -5383736946227900747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 31
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd5a87a2d3a36090800000000000000
+      internalID: -8042404384404251139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055d0c7782bb075a0800000000000000
+      internalID: -6525510077577636528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 41
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfac754be1f3c920800000000000000
+      internalID: 3009514968799031245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd50186987d095030800000000000000
+      internalID: 3483830598320063964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e90bae70cb735020800000000000000
+      internalID: 2329341498969754088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cddfec034e9e4c0800000000000000
+      internalID: -4257621074419786627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_19
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90ca4cb04d3fe100800000000000000
+      internalID: 139397461717991583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e935e7de1993cda0800000000000000
+      internalID: -5925724326939248155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_21
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 8
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b74e068a5e929420800000000000000
+      internalID: 2635342843598489523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchNoise_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc6bf2aa0643d5a0800000000000000
+      internalID: -6497772825867490084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GlitchNoise_0: 7834266262360593755
+      GlitchNoise_1: -1005792694174465709
+      GlitchNoise_10: 4429220815238036801
+      GlitchNoise_11: 3568926288662861083
+      GlitchNoise_12: -5383736946227900747
+      GlitchNoise_13: -8042404384404251139
+      GlitchNoise_14: -6525510077577636528
+      GlitchNoise_15: 3009514968799031245
+      GlitchNoise_16: 3483830598320063964
+      GlitchNoise_17: 2329341498969754088
+      GlitchNoise_18: -4257621074419786627
+      GlitchNoise_19: 139397461717991583
+      GlitchNoise_2: 5421545825067664502
+      GlitchNoise_20: -5925724326939248155
+      GlitchNoise_21: 2635342843598489523
+      GlitchNoise_22: -6497772825867490084
+      GlitchNoise_3: -6203072527291391636
+      GlitchNoise_4: 8912785146337044586
+      GlitchNoise_5: 8017936972779754122
+      GlitchNoise_6: 3429973501013263456
+      GlitchNoise_7: 2016148945857366173
+      GlitchNoise_8: 8943337959661701380
+      GlitchNoise_9: 523480406475458024
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

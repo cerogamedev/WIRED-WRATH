@@ -1,10 +1,13 @@
 using UnityEngine;
+using Scream2D.Controllers;
 using Scream2D.Enemies;
 
 namespace Scream2D.Enemies
 {
     public class ServerCrab : EnemyBase
     {
+        [Header("Crab Settings")]
+        [SerializeField] private bool isRolledUp = true; // Starts protected
         [SerializeField] private float aggroRange = 8f;
         [SerializeField] private float aggroSpeedMult = 2f;
         

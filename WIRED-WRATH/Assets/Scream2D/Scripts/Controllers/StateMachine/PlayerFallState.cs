@@ -9,6 +9,7 @@ namespace Scream2D.Controllers.StateMachine
 
         public override void EnterState()
         {
+            _ctx.PlayAnimation("JumpDown");
             _ctx.SetGravityScale(_ctx.FallGravityMult);
         }
 

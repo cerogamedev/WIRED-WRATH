@@ -25,7 +25,7 @@ namespace Scream2D.Systems
         private DiContainer _container;
 
         [Inject]
-        public void Construct(PlayerController player, ScreamMeter screamMeter, DiContainer container)
+        public void Construct([Inject(Optional = true)] PlayerController player, ScreamMeter screamMeter, DiContainer container)
         {
             _player = player;
             _screamMeter = screamMeter;

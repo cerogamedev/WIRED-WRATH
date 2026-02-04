@@ -15,6 +15,7 @@ namespace Scream2D.Controllers
         [Header("Components")]
         [SerializeField] private Rigidbody2D _rb;
         [SerializeField] private SpriteRenderer _spriteRenderer;
+        [SerializeField] private Animator _animator;
         
         [SerializeField] private ParticleFactory _particleFactory;
         [SerializeField] private GhostTrail _ghostTrail;
@@ -98,6 +99,7 @@ namespace Scream2D.Controllers
         {
             if (_rb == null) _rb = GetComponent<Rigidbody2D>();
             if (_spriteRenderer == null) _spriteRenderer = GetComponent<SpriteRenderer>();
+            if (_animator == null) _animator = GetComponent<Animator>();
 
             StateMachine = new PlayerStateMachine();
             _groundLayer = LayerMask.GetMask("Ground");
@@ -120,7 +122,7 @@ namespace Scream2D.Controllers
             HandleInput();
             HandleAbilities();
             
-            IsGrounded = Physics2D.OverlapCircle(transform.position + Vector3.down * 0.5f, 0.2f, _groundLayer);
+            IsGrounded = Physics2D.OverlapCircle(transform.position + Vector3.up * 0.1f, 0.2f, _groundLayer);
             IsTouchingWall = Physics2D.Raycast(transform.position, Vector2.right * FacingDirection, WallCheckDistance, WallLayer);
 
             if (IsGrounded)
@@ -410,6 +412,14 @@ namespace Scream2D.Controllers
             });
             
             Debug.Log("GLITCH STEP!");
+        }
+
+        public void PlayAnimation(string animationName)
+        {
+            if (_animator != null)
+            {
+                _animator.Play(animationName);
+            }
         }
     }
 }

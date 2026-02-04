@@ -51,6 +51,7 @@ namespace Scream2D.Editor
                 GUILayout.Label("Blocks & Hazards", EditorStyles.miniLabel);
                 EditorGUILayout.BeginHorizontal();
                 if (GUILayout.Button("🟩 Ground")) CreateGround();
+                if (GUILayout.Button("🎨 Tilemap Setup")) SetupTilemapInDraft();
                 if (GUILayout.Button("🧱 Wall")) CreateWall();
                 if (GUILayout.Button("🔺 Spikes")) CreateSpikes();
                 EditorGUILayout.EndHorizontal();
@@ -155,6 +156,49 @@ namespace Scream2D.Editor
              exit.AddComponent<LevelExit>();
              
              PlaceObject(exit);
+        }
+
+        private void SetupTilemapInDraft()
+        {
+            if (_levelRoot == null) CreateNewLevel();
+
+            // 1. Create/Find Grid inside root
+            Transform gridT = _levelRoot.transform.Find("Grid");
+            Grid grid = null;
+            if (gridT == null)
+            {
+                GameObject gridGo = new GameObject("Grid");
+                gridGo.transform.SetParent(_levelRoot.transform);
+                gridGo.transform.localPosition = Vector3.zero;
+                grid = gridGo.AddComponent<Grid>();
+            }
+            else
+            {
+                grid = gridT.GetComponent<Grid>();
+            }
+
+            // 2. Setup Layers using the centralized utility
+            GameObject groundGo = TilemapSetup.SetupLayers(grid.transform);
+            Selection.activeGameObject = groundGo;
+        }
+
+        private void CreateNPC()
+        {
+            if (_levelRoot == null) CreateNewLevel();
+
+            GameObject npc = CreateSpriteObject("NPC_Talker", Color.green); // Green Placeholder
+            npc.transform.localScale = Vector3.one;
+            
+            // Interaction Trigger
+            var collider = npc.GetComponent<BoxCollider2D>();
+            collider.isTrigger = true;
+            collider.size = new Vector2(3, 3); // Large trigger area
+
+            // Logic
+            npc.AddComponent<Scream2D.Level.DialogueTrigger>();
+
+            PlaceObject(npc);
+            Debug.Log("Created NPC Talker.");
         }
 
         #endregion
@@ -293,6 +337,9 @@ namespace Scream2D.Editor
             GUILayout.EndHorizontal();
 
             if (GUILayout.Button("Bit-Fly (Swarm)", GUILayout.Height(30))) CreateEnemyObject<Scream2D.Enemies.BitFly>("Bit-Fly", Color.green);
+            
+            EditorGUILayout.Space(5);
+            if (GUILayout.Button("🗣️ NPC Talker", GUILayout.Height(30))) CreateNPC();
         }
 
         private void AssignLayer(GameObject obj, string layerName)

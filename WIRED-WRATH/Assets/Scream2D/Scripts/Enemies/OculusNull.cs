@@ -1,4 +1,5 @@
 using UnityEngine;
+using Scream2D.Controllers;
 using Scream2D.Enemies;
 using DG.Tweening;
 
@@ -6,6 +7,11 @@ namespace Scream2D.Enemies
 {
     public class OculusNull : EnemyBase
     {
+        [Header("Patrol Settings")]
+        [SerializeField] private float patrolRadius = 3f;
+        [SerializeField] private float patrolSpeed = 2f;
+        [SerializeField] private float exposedDuration = 4f;
+
         [Header("Combat")]
         [SerializeField] private GameObject projectilePrefab;
         [SerializeField] private float fireRate = 1.5f;

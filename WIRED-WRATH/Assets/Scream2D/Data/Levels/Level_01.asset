@@ -15,8 +15,8 @@ MonoBehaviour:
   LevelName: Level_01
   Description: A grim start...
   Segments:
-  - {fileID: 7704395943615866407, guid: d98907297c4ec974da0446efce79e3d7, type: 3}
+  - {fileID: 3387442292671410250, guid: d98907297c4ec974da0446efce79e3d7, type: 3}
   AtmosphereColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  GlobalLightIntensity: 0.8
+  GlobalLightIntensity: 0.5
   GravityMultiplier: 1
   BackgroundMusic: {fileID: 0}

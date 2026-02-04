@@ -9,6 +9,7 @@ namespace Scream2D.Controllers.StateMachine
 
         public override void EnterState()
         {
+            _ctx.PlayAnimation("JumpUp");
             HandleJump();
             _ctx.PlayJumpDust();
             _ctx.SetGravityScale(_ctx.UpwardGravityMult); // Slow Rise

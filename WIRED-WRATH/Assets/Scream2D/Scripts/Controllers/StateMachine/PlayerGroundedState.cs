@@ -35,7 +35,6 @@ namespace Scream2D.Controllers.StateMachine
         {
              // Smooth Movement (Velocity based for responsiveness)
              float targetSpeed = _ctx.MoveInput.x * _ctx.MoveSpeed;
-             // Ideally we leverage dotween or smoothdamp, but direct velocity is standard for 2D platformers.
              Vector2 currentVel = _ctx.GetVelocity();
              float newX = Mathf.MoveTowards(currentVel.x, targetSpeed, (_ctx.MoveInput.x != 0 ? _ctx.Acceleration : _ctx.Deceleration) * Time.fixedDeltaTime);
              
@@ -44,6 +43,11 @@ namespace Scream2D.Controllers.StateMachine
              if (Mathf.Abs(newX) > 0.1f)
              {
                  _ctx.FlipSprite(newX > 0);
+                 _ctx.PlayAnimation("Walk");
+             }
+             else
+             {
+                 _ctx.PlayAnimation("Idle");
              }
         }
 

@@ -21,7 +21,7 @@ namespace Scream2D.Systems
                 distortionMaterial.SetFloat("_Intensity", _screamMeter.normalizedScream);
                 
                 // Dynamic FOV or Vignette could also be handled here
-                Camera.main.orthographicSize = 5f - (_screamMeter.normalizedScream * 0.5f);
+                Camera.main.orthographicSize = 3.5f - (_screamMeter.normalizedScream * 0.5f);
             }
         }
     }
